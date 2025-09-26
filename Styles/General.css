@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Mynerve;
+  src: url(Mynerve-Regular.ttf);
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.illustration {
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
+
+
+.header-name {
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+
+.footer {
+  text-align: center;
+  font-family: Mynerve;
+  color: rgb(109, 148, 18);
+  letter-spacing: 0.4rem;
+  padding: 2%;
+  font-size: 1.3rem;
+}
+
+@media(max-width:950px) {
+  .header-name {
+    max-width: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 720px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
