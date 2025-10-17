@@ -37,7 +37,6 @@ body {
 }
 
 a:is(:link, :active, :visited).menu-active {
-
   text-decoration: underline;
 }
 
@@ -102,7 +101,7 @@ li {
 }
 
 
-p {
+.p {
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 18px;
