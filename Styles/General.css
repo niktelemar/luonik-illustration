@@ -123,6 +123,7 @@ li {
   max-width: 540px;
   object-fit: cover;
   vertical-align: middle;
+  border-radius: 15px;
 }
 
 
@@ -158,7 +159,7 @@ li {
 
   .nav-menu {
     position: fixed;
-    right: -100%;
+    right: -110%;
     top: -30px;
     gap: 0;
     height: 100%;
