@@ -163,6 +163,13 @@ li {
   justify-content: center;
 }
 
+@media(max-width:1350px) {
+  .main-grid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 @media(max-width:950px) {
   .header-name {
     max-width: 300px;
@@ -207,6 +214,8 @@ li {
     right: 0;
   }
 }
+
+
 
 @media (max-width: 720px) {
   .main-grid {
