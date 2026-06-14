@@ -3,6 +3,10 @@
   src: url(DMSans-Regular.ttf);
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: DMSans-Regular, system-ui;
@@ -11,7 +15,9 @@ body {
   padding-right: 5px;
   padding-bottom: 30px;
 
-
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-grid {
@@ -151,6 +157,9 @@ li {
   font-size: 0.8rem;
 }
 
+footer {
+  margin-top: auto;
+}
 
 .p {
   margin-top: 0px;
